@@ -50,6 +50,7 @@ code {
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  display: inline-block;
 }
 
 .roboticsLogo {
@@ -73,6 +74,7 @@ code {
 .logoContainer{
   height: 15.8em;
   position: relative;
+  display: inline-block;
 }
 .roboticsLogo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
