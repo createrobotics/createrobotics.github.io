@@ -150,6 +150,6 @@ code {
 @media (max-width: 600px) {
   /* Add your styles here, including the max-width property */
   :root{
-    max-width: min-content;
+    max-width:536px;
   }
 }
