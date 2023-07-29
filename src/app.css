@@ -28,7 +28,7 @@ a:hover {
 
 body {
   place-items: center;
-  min-width: 320px;
+  min-width: 0;
   padding-top: 6em;
   display: inline-block;
   margin: 0;
@@ -151,5 +151,47 @@ code {
   /* Add your styles here, including the max-width property */
   :root{
     max-width:536px;
+  }
+
+
+  h1{
+    font-size: 2.2em;
+    line-height: 1.1;
+  }
+
+  .homeContainer{
+    padding: 0;
+    margin: 0;
+    max-width: 400px;
+  }
+
+  .logoContainer{
+    max-width: 400px;
+  }
+
+  .largeCogwheel{
+    padding: 0;
+    width: 400px;
+  }
+
+  .buttonContainer {
+    max-width: 22em;
+    min-width: 11em;
+    padding: 0 auto;
+    margin: 0;
+    display:grid;
+    grid-template-columns: 7em 7em;
+    padding: 0 auto;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .roboticsLogo{
+    top: 40%;
+  }
+
+  .buttonLink{
+    padding: 0;
+    margin-bottom: 10px;
   }
 }
